@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f7;
+    color: #222;
+}
+
+
+
+
+header {
+    background-color: #000000;
+    color: white;
+
+    text-align: center;
+
+    padding: 40px 20px;
+}
+
+header span {
+    color: #00a86b;
+}
+
+header p {
+    margin-top: 10px;
+    color: #ccc;
+}
+
+
+
+.cadastro {
+    background-color: white;
+
+    width: 80%;
+    max-width: 700px;
+
+    margin: 40px auto;
+
+    padding: 30px;
+
+    border-radius: 8px;
+}
+
+.cadastro h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+input {
+    padding: 12px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px;
+
+    background-color: #00a86b;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #008653;
+}
+
+
+
+
+.vagas {
+    width: 90%;
+    max-width: 900px;
+
+    margin: 40px auto;
+}
+
+.vagas h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    background-color: white;
+}
+
+th,
+td {
+    padding: 15px;
+
+    border: 1px solid #ddd;
+
+    text-align: left;
+}
+
+th {
+    background-color: #000000;
+    color: white;
+}
+
+
+
+footer {
+    text-align: center;
+
+    margin-top: 50px;
+    padding: 20px;
+
+    background-color: #000000;
+    color: white;
+}
