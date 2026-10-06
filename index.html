@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Estágio Tech</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Estágio <span>Tech</span></h1>
+
+        <p>
+            Encontre e divulgue oportunidades de estágio
+            na área de tecnologia.
+        </p>
+    </header>
+
+
+    
+
+    <section class="cadastro">
+
+        <h2>Divulgue uma vaga</h2>
+
+        <form id="formulario">
+
+            <input
+                type="text"
+                id="empresa"
+                placeholder="Nome da empresa"
+                required
+            >
+
+            <input
+                type="text"
+                id="vaga"
+                placeholder="Nome da vaga"
+                required
+            >
+
+            <input
+                type="text"
+                id="local"
+                placeholder="Local da vaga"
+                required
+            >
+
+            <button type="submit">
+                Cadastrar vaga
+            </button>
+
+        </form>
+
+    </section>
+
+
+  
+
+    <section class="vagas">
+
+        <h2>Vagas disponíveis</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Empresa</th>
+                    <th>Vaga</th>
+                    <th>Local</th>
+                </tr>
+            </thead>
+
+            <tbody id="listaVagas">
+
+                <tr>
+                    <td>Tech Solutions</td>
+                    <td>Estágio em Desenvolvimento</td>
+                    <td>Fortaleza - CE</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+
+    <footer>
+        <p>© 2026 Estágio Tech</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
